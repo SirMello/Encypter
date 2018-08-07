@@ -1,11 +1,24 @@
 #include "../include/keyGenerator.h"
 
 void keyGen(unsigned (&arr)[5], int sze){
-  std::cout << " Input five numbers between 0 - 9 seperated by spaces and press [ENTER] when you are done." << std::endl;
+  std::string input;
 
-  for(int i = 0; i != sze; ++i){
-    std::cin >> arr[i];
+  std::cout << " Input five numbers between 0 - 9 and press [ENTER] when you are done." << std::endl;
+  std::cin >> input;
+
+  if (input.size() == 5){
+    for(int i = 0; i != input.size(); ++i){
+      int stringValue = input[i] - '0';
+      arr[i] = stringValue;
+    }
+
   }
+
+  std::cout << "[Your unique key is used for DECRYPTION:";
+  for (int i = 0; i < 5; ++i){
+    std::cout << " " << arr[i];
+  }
+  std::cout << "]" << std::endl;
 
   unsigned tmp = arr[0];
 
