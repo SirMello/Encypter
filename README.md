@@ -1,4 +1,4 @@
-# Encypter
+# Ligma Machine
 
 An Engima like encrypter made by me and a friend of mine named [Happy Seaweed](https://github.com/Happyseaweed). At the moment, we don't have many features. The only feature that is worth noting is the ability to input a key to scramble your message. This key is 5 digits has a scrambling algorithm added for extra security. :)
 
