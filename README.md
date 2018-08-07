@@ -1,6 +1,6 @@
 # Encypter
 
-An Engima like encrypter made by me and a friend of mine named Happy Seaweed. At the moment, we don't have many features. The only feature that is worth noting is the ability to input a key to scramble your message. This key is 5 digits has a scrambling algorithm added for extra security. :)
+An Engima like encrypter made by me and a friend of mine named [Happy Seaweed](https://github.com/Happyseaweed). At the moment, we don't have many features. The only feature that is worth noting is the ability to input a key to scramble your message. This key is 5 digits has a scrambling algorithm added for extra security. :)
 
 ## Getting Started
 
@@ -50,18 +50,17 @@ B) Decrypt
 
 ## Built With
 
-    * [g++]() - C++ compiler used(may vary on other systems)
+* [g++](https://gcc.gnu.org) - C++ compiler used(may vary on other systems)
 
-Authors
+## Authors
 
-* **Me** - Developed the beta/eariler verison and worked on this verison- SirMello
-* **Seaweed** - Worded on this verison and created the algorithm for our Engima - HappySeaweed
+* **Me** - Developed the beta/eariler verison and worked on this verison - [SirMello](https://github.com/SirMello)
+* **Seaweed** - Worded on this verison and created the algorithm for our Engima - [HappySeaweed](https://github.com/Happyseaweed)
 
-See also the list of contributors who participated in this project.
 ## License
 
 **WORK IN PROGESS**
 
 ## Acknowledgments
 
-Credit to Arthur Scherbius for creating the real Engima machine
+Credit to Arthur Scherbius for creating the **real** Engima machine
