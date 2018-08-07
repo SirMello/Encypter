@@ -27,7 +27,7 @@ int main(){
   unsigned keyList[5] = {0};
 
 //----------------------------------ARRAY---------------------------------------
-  char eng[engSize] = {
+  char eng[84] = {
                   // Lowercase letters
                   'a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm',
                   'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z',
