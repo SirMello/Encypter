@@ -1,6 +1,6 @@
 #include "../include/keyGenerator.h"
 
-void keyGen(unsigned (&arr)[5], size_t sze){
+void keyGen(unsigned (&arr)[5], int sze){
   std::cout << " Input five numbers between 0 - 9 seperated by spaces and press [ENTER] when you are done." << std::endl;
 
   for(int i = 0; i != sze; ++i){
@@ -20,7 +20,7 @@ void keyGen(unsigned (&arr)[5], size_t sze){
 }
 
 
-void keyGen(unsigned (&arr)[5], size_t sze, unsigned const (&keys)[5]){
+void keyGen(unsigned (&arr)[5], int sze, unsigned const (&keys)[5]){
   unsigned tmp = keys[0];
 
   for(int i = 0; i != sze; ++i){
